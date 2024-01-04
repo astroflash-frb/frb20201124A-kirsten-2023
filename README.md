@@ -1,10 +1,10 @@
 # Intro
 
-This repo contains the scripts and databases that were used to generate the plots and results found in [Kirsten+2023](https://arxiv.org/abs/2306.15505). The data needed to run the scripts are available at [this Zenodo link](https://zenodo.org/uploads/10006350). The tarball contains the readily processed and flagged data, as well as the unprocessed filterbanks. Thus, it is possible to use the plotting scripts directly or reprocess the data first.
+This repo contains the scripts and databases that were used to generate the plots and results found in [Kirsten+2024](https://www.nature.com/articles/s41550-023-02153-z). The data needed to run the scripts are available at [this Zenodo link](https://zenodo.org/uploads/10006349). The tarball contains the readily processed and flagged data, as well as the unprocessed filterbanks. Thus, it is possible to use the plotting scripts directly or reprocess the data first.
 
 The database that contains all of the numbers generated via the scripts in this repo is in `./dbs/burst_info.[pickle,cvs]`. For convenience, the data from [Xu et al. 2022](https://www.nature.com/articles/s41586-022-05071-8) are also provided in `./dbs/FRB20201124A_2021AprMay_FAST_BurstInfo.txt` 
 
-If you are using this code, please cite [Kirsten+2023](https://arxiv.org/abs/2306.15505)
+If you are using this code, please cite [Kirsten+2024](https://www.nature.com/articles/s41550-023-02153-z)
 
 # Run the code
 Most scripts contain somewhat of an explanation right at the top of the code and further comments throught. In order to reprocess the data, the following scripts need to be run in order:
